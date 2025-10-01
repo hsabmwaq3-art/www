@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hsabmwaq3-art.github.io/www/sitemap.xml
+
+# Important pages
+Allow: /index.html
+Allow: /dubai-winch.html
+Allow: /dubai-apartments.html
+Allow: /abudhabi.html
+Allow: /sharjah.html
+Allow: /ajman.html
+Allow: /ras-al-khaimah.html
+Allow: /fujairah.html
+Allow: /umm-al-quwain.html
+
+# SEO optimized URLs
+Allow: /services/
+Allow: /emirates/
+Allow: /areas/
+
+# Block unnecessary files
+Disallow: /script.js
+Disallow: /styles.css
+Disallow: /*.png$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+
+# Crawl delay (be respectful to search engines)
+Crawl-delay: 1
